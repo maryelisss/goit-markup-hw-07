@@ -640,15 +640,18 @@ img {
 }
 
 .header {
+  border-width: 0px 0px 1px 0px;
+  border-color: #ececec;
+  border-style: solid;
+}
+
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-width: 0px 0px 1px 0px;
-  border-color: #ececec;
-  border-style: solid;
 }
 
 .header__nav {

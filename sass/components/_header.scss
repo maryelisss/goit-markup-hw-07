@@ -1,9 +1,12 @@
 .header {
-    display: flex;
-    align-items: center;
     border-width: 0px 0px 1px 0px;
     border-color: #ececec;
     border-style: solid;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+
 }
 
 .header__nav {
